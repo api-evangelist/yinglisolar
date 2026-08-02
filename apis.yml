@@ -1,8 +1,27 @@
 aid: yinglisolar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yinglisolar.png
 name: yinglisolar
-description: yinglisolar is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Yingli Energy Development Co., Ltd. (Yingli Solar) is one of the earliest companies in China to
+  commit to the photovoltaic industry, operating as an integrated photovoltaic smart-energy solution
+  provider spanning technology research and development, smart manufacturing of high-efficiency solar
+  PV modules (PANDA 3.0 and YLM 3.0 series), and the development, construction, and operation of power
+  stations for residential, commercial, and utility-scale applications. The company was surfaced as a
+  portfolio company of balderton-capital and added to the API Evangelist network. As a solar-hardware
+  manufacturer, Yingli publishes no public developer API, SDK, or developer portal; its only online
+  service surfaces are a product anti-counterfeiting verification tool and product-specification
+  downloads.
 url: https://raw.githubusercontent.com/api-evangelist/yinglisolar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +31,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar
+- Photovoltaic
+- Renewable Energy
+- Manufacturing
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yinglisolar-domain-security.yml
 - type: Website
   url: http://www.yinglisolar.com/en/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
